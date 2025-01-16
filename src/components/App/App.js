@@ -1,9 +1,9 @@
-import Counter from '../Counter/Counter';
+import BirdMap from "../BirdMap/BirdMap";
 
 function App() {
   return (
-    <Counter/>
-  );
+    <BirdMap/>
+  )
 }
 
 export default App;
