@@ -5,7 +5,13 @@ function App() {
   return (
     <>
       <GitRepositoryHeader/>
-      <BirdMap/>
+      <section className="bird-selection-section">
+       <BirdMap/>
+       <div className="image-container">
+        <img src="https://www.allaboutbirds.org/news/wp-content/uploads/2024/02/AmericanRobin_ABuckley_banner.jpg"/>
+       </div>
+      </section>
+      <Footer/>
     </>
   )
 }

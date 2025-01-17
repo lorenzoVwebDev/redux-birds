@@ -27,12 +27,19 @@ const birdSlice = createSlice({
       let arrayBird = '';
       for (const bird of birdSpecies) {
         if (bird.toLowerCase() === action.payload.name.toLowerCase()) {
+          const match = state.find(bird => {
+            console.log(bird.name)
+            return bird.name ===  action.payload.name
+          })
+
+          if (match) return state;
+
           birdBool = true;
           arrayBird = bird;
         }
       }
 
-      if (birdBool) {
+      if (birdBool && !(state.length >= 5)) {
         action.payload.name = arrayBird;
         state.push(action.payload)
       } else {

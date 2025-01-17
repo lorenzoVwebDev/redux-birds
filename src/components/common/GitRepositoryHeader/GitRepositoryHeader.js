@@ -3,7 +3,7 @@ import './GitRepositoryHeader.scss';
 
 function GitRepositoryHeader() {
   return (<>
-    <header className="git-repository-header">Git repository 👉🏻<a href=""></a></header>
+    <header className="git-repository-header">Git repository 👉🏻<a href="https://github.com/lorenzoVwebDev/redux-birds.git">Redux Birds</a></header>
   </>)
 }
 
