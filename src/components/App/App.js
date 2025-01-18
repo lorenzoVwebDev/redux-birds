@@ -3,7 +3,7 @@ import { GitRepositoryHeader, Footer } from '../common/';
 
 function App() {
   return (
-    <>
+    <div className='app-wrapper'>
       <GitRepositoryHeader/>
       <section className="bird-selection-section">
        <BirdMap/>
@@ -12,7 +12,7 @@ function App() {
        </div>
       </section>
       <Footer/>
-    </>
+    </div>
   )
 }
 
