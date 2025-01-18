@@ -9,10 +9,10 @@
 }
 
 .footer-container {
-  position: absolute;
+/*    position: absolute;
   bottom: 0px;
-  left: 0px;
-  display: flex;
+  left: 0px;  */
+  display: inline-flex;
   flex-direction: column;
   background-color: $black-footer;
   color: $white-font;
